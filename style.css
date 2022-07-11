@@ -1,0 +1,59 @@
+* {
+    margin: 15px;
+    padding: 0px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+    background-image: url("./pexels-roman-friptuleac-10925135.jpg");
+    background-size: no-repeat;
+}
+
+.mainContainer {
+    text-align: center;
+
+    font-weight: 120px;
+    padding: 5px;
+
+
+    border: 2px ridge rgba(7, 7, 7, 0.5);
+    box-shadow: 0 4px 30px rgb(255, 255, 255, 0.3);
+    border-radius: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+
+    height: 550px;
+    width: 550px;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 1rem;
+
+    border-radius: 2rem;
+    border: none;
+
+    background: rgba(255, 255, 255, 0.3);
+
+    font-size: 20px;
+    font-weight: bolder;
+
+    transition: 0.4s;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+}
+
+.btn:active {
+    transform: translateY(6px);
+}
+
+hr {
+    opacity: 5;
+    background-color: rgb(38, 22, 22);
+}
