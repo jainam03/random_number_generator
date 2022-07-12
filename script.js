@@ -10,6 +10,6 @@ function generate1() {
 
 function generate2() {
     let result2 = 0
-    result2 += Math.floor(Math.random() * 50)
+    result2 += Math.floor(Math.random() * 51) + 50
     field2El.textContent = "Random number: " + result2
 }
