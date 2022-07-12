@@ -1,23 +1,27 @@
 * {
-    margin: 15px;
+    margin: 10px;
     padding: 0px;
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
-    display: flex;
-    justify-content: center;
+    align-items: center;
+    text-align: center;
 
     background-image: url("./pexels-roman-friptuleac-10925135.jpg");
-    background-size: no-repeat;
+    background-size: cover;
 }
 
 .mainContainer {
     text-align: center;
 
     font-weight: 120px;
-    padding: 5px;
+    padding: 2px;
+    margin-left: 30rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 30rem;
 
 
     border: 2px ridge rgba(7, 7, 7, 0.5);
@@ -26,13 +30,14 @@ body {
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
 
-    height: 550px;
+    height: 620px;
+    max-height: 650px;
     width: 550px;
 }
 
 .btn {
     cursor: pointer;
-    padding: 1rem;
+    padding: 5px;
 
     border-radius: 2rem;
     border: none;
