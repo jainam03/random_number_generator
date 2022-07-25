@@ -3,6 +3,7 @@
     padding: 0px;
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 body {
@@ -14,6 +15,12 @@ body {
 }
 
 .mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
     text-align: center;
 
     font-weight: 120px;
@@ -38,7 +45,13 @@ body {
     height: 610px;
     max-height: 650px;
     width: 550px;
+
+    transition: 0.4s;
 }
+
+/*.mainContainer:hover {
+    transform: translateZ(12px);
+}*/
 
 .btn {
     cursor: pointer;
