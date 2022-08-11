@@ -24,13 +24,13 @@ body {
     text-align: center;
 
     font-weight: 120px;
-    padding-top: 10px;
+    padding-top: 1px;
     padding-left: 12px;
     padding-right: 12px;
     padding-bottom: 0px;
 
     margin-left: 30rem;
-    margin-top: 2.6rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     margin-right: 30rem;
 
@@ -42,8 +42,8 @@ body {
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
 
-    height: 610px;
-    max-height: 650px;
+    height: 650px;
+    max-height: 700px;
     width: 550px;
 
     transition: 0.4s;
@@ -80,4 +80,19 @@ body {
 hr {
     opacity: 5;
     background-color: black;
+}
+
+
+#logo {
+    color: black;
+    transition: 0.4s;
+}
+
+#logo:hover {
+    color: white;
+}
+
+#logo:active {
+    color: black;
+    transform: translateY(10px);
 }
